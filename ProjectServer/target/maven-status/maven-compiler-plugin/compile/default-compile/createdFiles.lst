@@ -1,2 +1,7 @@
-adac\projectserver\ProjectServer$1.class
-adac\projectserver\ProjectServer.class
+adac\projectserver\ServerFrame$2.class
+adac\projectserver\ServerFrame.class
+adac\projectserver\ServerThread.class
+adac\projectserver\ServerSettings.class
+adac\projectserver\ServerThread$MsgReceived.class
+adac\projectserver\ServerFrame$3.class
+adac\projectserver\ServerFrame$1.class

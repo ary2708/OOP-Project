@@ -1,2 +1,6 @@
-adac\client\server\auth\ServerFrame.class
-adac\client\server\auth\ServerFrame$1.class
+adac\client\server\auth\ClientFrame$1.class
+adac\client\server\auth\ClientFrame$MsgReceived.class
+adac\client\server\auth\ClientFrame$2.class
+adac\client\server\auth\ClientFrame$3.class
+adac\client\server\auth\ClientFrame.class
+adac\client\server\auth\ClientSettings.class
