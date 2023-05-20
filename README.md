@@ -2,11 +2,32 @@
 
 ## Run directly via command line
 
+### To build jar files:
+
+Open a command prompt or terminal.
+
+Navigate to the client-server-auth directory of the project.
+
+Build the client module by running the following command:
+`mvn clean install`
+
+This command will compile the client module, run tests if any, package it into a JAR file, and place it in the target directory of the client module.
+
+Similarly for server module,
+Navigate to the ProjectServer directory.
+
+Build the server module by running the following command:
+`mvn clean install`
+
+This command will compile the server module, run tests if any, package it into a JAR file, and place it in the target directory of the client module.
+
+### To run the files:
+
 1. Go to ProjectServer directory and run the following command:
-java -jar target/ProjectServer.jar
+`java -jar target/ProjectServer.jar`
 
 2. Go to client-server-auth directory and run:
-java -jar target/ProjectClient.jar
+`java -jar target/ProjectClient.jar`
 
 ## How does it work?
 
