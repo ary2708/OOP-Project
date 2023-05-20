@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-        <groupId>adac</groupId>
-        <version>1.0-SNAPSHOT</version>
-    <artifactId>ProjectServer</artifactId>
+    <groupId>adac</groupId>
+    <artifactId>ProjectClient</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>ProjectServer</name>
+    <name>ProjectClient</name>
 
-    <!-- Server-specific configuration -->
+    <!-- Client-specific configuration -->
     <build>
         <plugins>
             <plugin>
@@ -19,7 +19,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>adac.projectserver.ServerFrame</mainClass>
+                            <mainClass>adac.client.server.auth.ClientFrame</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
