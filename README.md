@@ -6,6 +6,8 @@
 
 Open a command prompt or terminal.
 
+`Client side`
+
 Navigate to the client-server-auth directory of the project.
 
 Build the client module by running the following command:
@@ -13,7 +15,8 @@ Build the client module by running the following command:
 
 This command will compile the client module, run tests if any, package it into a JAR file, and place it in the target directory of the client module.
 
-Similarly for server module,
+`Server Side`
+
 Navigate to the ProjectServer directory.
 
 Build the server module by running the following command:
